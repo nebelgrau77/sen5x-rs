@@ -1,4 +1,5 @@
-use embedded_hal as hal;
+//use embedded_hal as hal;
+use embedded_hal_async as hal;
 use hal::i2c::I2c;
 use sensirion_i2c::i2c;
 
